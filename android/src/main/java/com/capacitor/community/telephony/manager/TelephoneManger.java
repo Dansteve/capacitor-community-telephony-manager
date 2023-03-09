@@ -8,4 +8,19 @@ public class TelephoneManger {
         Log.i("Echo", value);
         return value;
     }
+
+    public String getImei(String value) {
+        Log.i("getImei", value);
+        return value;
+    }
+
+    public String getMeid(String value) {
+        Log.i("getMeid", value);
+        return value;
+    }
+
+    public String getSimSerialNumber(String value) {
+        Log.i("getSimSerialNumber", value);
+        return value;
+    }
 }

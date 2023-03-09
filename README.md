@@ -14,6 +14,9 @@ npx cap sync
 <docgen-index>
 
 * [`echo(...)`](#echo)
+* [`getImei()`](#getimei)
+* [`getMeid()`](#getmeid)
+* [`getSimSerialNumber()`](#getsimserialnumber)
 
 </docgen-index>
 
@@ -29,6 +32,39 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 | Param         | Type                            |
 | ------------- | ------------------------------- |
 | **`options`** | <code>{ value: string; }</code> |
+
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### getImei()
+
+```typescript
+getImei() => Promise<{ value: string; }>
+```
+
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### getMeid()
+
+```typescript
+getMeid() => Promise<{ value: string; }>
+```
+
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### getSimSerialNumber()
+
+```typescript
+getSimSerialNumber() => Promise<{ value: string; }>
+```
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
